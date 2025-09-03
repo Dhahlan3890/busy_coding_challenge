@@ -25,11 +25,11 @@ export default function HomePage() {
           <div className="flex items-center justify-center gap-2 mb-4">
             <Sparkles className="h-8 w-8 text-primary animate-pulse" />
             <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              AI Document Assistant
+              AI Resume Analyzer and Email Sender
             </h1>
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Upload PDFs, ask intelligent questions, and send professional emails with AI-powered assistance
+            Upload your resume, ask intelligent questions, and send professional emails with AI-powered assistance
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export default function HomePage() {
                     Document Upload
                   </CardTitle>
                   <CardDescription>
-                    Upload PDF documents to analyze and ask questions about their content
+                    Upload your resume to analyze and ask questions about its content
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -92,7 +92,7 @@ export default function HomePage() {
                     Document Chat
                   </CardTitle>
                   <CardDescription>
-                    Ask questions about your uploaded documents and get AI-powered answers
+                    Ask questions about your uploaded resume and get AI-powered answers
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
