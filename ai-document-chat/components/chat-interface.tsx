@@ -49,7 +49,7 @@ export function ChatInterface({ uploadedFiles }: ChatInterfaceProps) {
       formData.append("question", input)
 
       // Call the FastAPI endpoint
-      const response = await fetch("http://localhost:8000/chat-pdf/", {
+      const response = await fetch("https://busy-coding-challenge-1.onrender.com/chat-pdf/", {
         method: "POST",
         body: formData,
       })
