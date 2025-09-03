@@ -73,7 +73,7 @@ export function ChatInterface({ uploadedFiles }: ChatInterfaceProps) {
         id: (Date.now() + 1).toString(),
         type: "bot",
         content:
-          "Sorry, I couldn't process your question. Please make sure the API server is running on localhost:8000.",
+          "Sorry, I couldn't process your question. Please make sure the API server is running on backend",
         timestamp: new Date(),
       }
       setMessages((prev) => [...prev, errorMessage])
