@@ -72,9 +72,9 @@ def build_vector_store(text_chunks):
 def get_conversational_chain():
     prompt_template = """
     You are a highly knowledgeable assistant. 
-    Answer the user's question based on the provided context. 
+    Answer my question based on the provided context resume of mine. 
     If the answer is missing, say:
-    "The answer isn't in the provided data, but here is the closest match (in point form)."
+    "here is the closest match: "
 
     Context:\n {context}\n
     Question: \n{question}\n
