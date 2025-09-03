@@ -5,7 +5,7 @@ COPY ai-document-chat/package.json ai-document-chat/pnpm-lock.yaml ./
 COPY ai-document-chat ./
 RUN npm install -g pnpm && pnpm install --frozen-lockfile && pnpm build
 
-### --- BACKEND BUILD STAGE --- ###
+### --- BACKEND BUILD STAGE --- ####
 FROM python:3.11-slim AS backend-builder
 WORKDIR /backend
 ENV PYTHONDONTWRITEBYTECODE=1 \
